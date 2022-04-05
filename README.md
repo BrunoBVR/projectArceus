@@ -6,6 +6,14 @@ So, when Legends: Arceus was [announced](https://www.youtube.com/watch?v=v2zj0y6
 
 Now, over two months after release, we are going to explore Pokémon Legends: Arceus reviews from [metacritic](https://www.metacritic.com/game/switch/pokemon-legends-arceus/user-reviews?sort-by=score&num_items=100) and try to analyze a little of what users are saying about the game. The reviews were scraped using our [scraper](scraper.py) on March 19, 2022.
 
+## Evolution of user score
+
+To get an peak into the analysis, here's an evolution of user score over time as seen by the Cummulative Moving Average of scores. Scores are sorted by date and the average is calculated for each new entry.
+
+![image](CMA.gif)
+*Example usage of dash app1.*
+
+
 ## Files to check out:
 
 * [Scraping.ipynb](Scraping.ipynb): this is the notebook where all the testing is done to build the scraper. Note that it is unorganized!
